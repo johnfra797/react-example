@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from '../../logo.svg';
 import './App.css';
 import Hello from '../hello/Hello';
+import BasicExample from '../route/Route';
+
 class App extends Component {
   render() {
     return (
@@ -12,6 +14,7 @@ class App extends Component {
         </header>
         <Hello>
         </Hello>
+        <BasicExample></BasicExample>
       </div>
     );
   }
